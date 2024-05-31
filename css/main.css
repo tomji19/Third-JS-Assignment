@@ -1,0 +1,32 @@
+.form-content .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container .form-content form {
+  width: 85%;
+}
+
+.container .form-content label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.container form button {
+  margin-top: 1rem;
+  font-weight: bold;
+  padding: 0.4rem 2.8rem;
+  background-color: black;
+}
+
+.form-content {
+  width: 100%;
+}
+
+.border-yellow {
+  border-color: yellow;
+}
